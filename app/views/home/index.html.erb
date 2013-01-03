@@ -1,8 +1,4 @@
 
-<% if( @led.ison == true ) %>
-	<a href="<%= turnoff_path %>"><img src="/img/ledon.png" /></a>
-<% else %>
-	<a href="<%= turnon_path %>"><img src="/img/ledoff.png" /></a>
-<% end %>
+<%= render @led %>
 	
 	

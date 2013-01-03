@@ -1,3 +1,11 @@
 // Place all the styles related to the Leds controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+.ledContainer {
+  margin: 100px auto 0 auto;
+  width: 200px;
+  position: relative;
+}
