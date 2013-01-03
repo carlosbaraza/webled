@@ -1,4 +1,12 @@
 Webled::Application.routes.draw do
+  
+  match 'turnon' => 'leds#turnon', :as => :turnon
+  match 'turnoff' => 'leds#turnoff', :as => :turnoff
+  
+  get "leds/turnon"
+
+  get "leds/turnoff"
+
   get "home/index"
 
   root :to => "home#index"
